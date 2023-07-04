@@ -46,3 +46,10 @@ main {
   background:white;
 }
 
+.title h2 {
+  border: solid 3px rgba(0, 157, 255, 0.909);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: .6rem;
+}
