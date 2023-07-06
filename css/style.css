@@ -25,6 +25,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items:center;
+  justify-content: center;
 }
 
 .title {
@@ -38,12 +39,13 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   max-width:80%;
   min-width:70%;
   border-radius:1rem;
   box-shadow: 10px 20px 40px black;
   background:white;
+  padding: 1rem;
 }
 
 .title h2 {
@@ -52,4 +54,55 @@ main {
   border-left: none;
   border-right: none;
   padding-bottom: .6rem;
+}
+
+.card__img {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px -2px 1px rgba(0, 157, 255, 0.909);
+}
+
+.card__img img{
+  width: 100%;
+  height: 100%;
+}
+
+.card__role {
+  margin-top: -15px;
+  color: rgba(0, 157, 255, 0.909)
+}
+
+.card__name {
+  font-weight: bold;
+  letter-spacing: .09em;
+  font-size: 1.1rem;
+}
+
+.card__description {
+  font-size:.9rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.705);
+
+}
+
+.actions__arrows {
+  display: flex;
+  justify-content: center;
+  gap: .8rem;
+  color: rgba(0, 157, 255, 0.909);
+  padding: .8rem 0rem;
+}
+
+.actions__arrows span {
+  font-size:.9rem;
+  font-weight: bold;
+}
+
+.actions__button button {
+  border: rgba(0, 157, 255, 0.909) 2px solid ;
+  padding: 0.2rem .8rem;
+  border-radius: .3rem;
+  color: rgba(0, 157, 255, 0.909);
 }
